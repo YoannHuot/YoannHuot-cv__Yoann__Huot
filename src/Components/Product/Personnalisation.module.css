@@ -1,0 +1,121 @@
+.toggle {
+    height: 32px;
+    width: 75px;
+    border-radius: 16px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    border: 2px solid #474755;
+    background: #eeedff;
+    transition: all 0.2s ease;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+.toggle::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fa6a5f;
+    box-shadow: 0 1px 2px rgba(44, 44, 44, 0.2);
+    transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+}
+
+.toggle:checked::after {
+    transform: translatex(43px);
+    background-color: #3bdb82;
+}
+
+.right__personalisation {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right__choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 40px;
+    width: 30%;
+}
+.right__choice p {
+    margin-bottom: 10px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: #eeedff;
+    border-top: 1px solid rgb(212, 210, 210);
+    border-bottom: 1px solid rgb(212, 210, 210);
+    border-radius: 2em;
+}
+
+.big_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ccc;
+    height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .right__personalisation {
+        flex-wrap: wrap;
+        width: 70%;
+        height: auto;
+        margin: 0;
+    }
+    .right__choice {
+        flex-wrap: wrap;
+        width: 150px !important;
+        padding: 0px;
+        margin: 20px 0px 20px 0px;
+        width: 50%;
+        align-items: flex-start;
+    }
+    .choice {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+
+    .big_line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right__personalisation {
+        margin: 0 auto;
+    }
+    .right__expedition {
+        margin: 0 auto;
+    }
+    .first__choice {
+        margin: 0;
+    }
+    .first__choice__select {
+        margin: 0;
+    }
+}

@@ -1,57 +1,74 @@
 @font-face {
-	font-family: "Hemi";
-	src: local("hemi head bd it"), url(./fonts/Hemi/hemi\ head\ bd\ it.ttf) format("truetype");
-}
-@font-face {
-	font-family: "Aaargh-webfont";
-	src: local("Aaargh-webfont"), url(./fonts/Aaargh-webfont.woff) format("truetype");
-}
-@font-face {
-	font-family: "Caviar_Dreams_Bold";
-	src: local("Caviar"), url(./fonts/Caviar/Caviar_Dreams_Bold.ttf) format("truetype");
-}
-@font-face {
-	font-family: "Caviar_Dreams";
-	src: local("Caviar_Dreams"), url(./fonts/Caviar/CaviarDreams.ttf) format("truetype");
-}
-@font-face {
-	font-family: "Glacial";
-	src: url(./fonts//Glacial/GlacialIndifference-Regular.otf);
-}
-@font-face {
-	font-family: "Glacial-bold";
-	src: url(./fonts//Glacial/GlacialIndifference-Bold.otf);
-}
-@font-face {
-	font-family: "Orkney";
-	src: url(./fonts//Orkney/orkney-regular.otf);
+    font-family: "Mont";
+    src: url(./fonts//Mont/Mont-HeavyDEMO.otf);
 }
 
 @font-face {
-	font-family: "Amble";
-	src: url(./fonts//Amble/Amble-Regular-webfont.woff);
+    font-family: "Hemi";
+    src: local("hemi head bd it"),
+        url(./fonts/Hemi/hemi\ head\ bd\ it.ttf) format("truetype");
 }
 @font-face {
-	font-family: "Amble-BOLD";
-	src: url(./fonts//Amble/Amble-Bold-webfont.woff);
+    font-family: "Aaargh-webfont";
+    src: local("Aaargh-webfont"),
+        url(./fonts/Aaargh-webfont.woff) format("truetype");
 }
 @font-face {
-	font-family: "Liberation";
-	src: url(./fonts//Liberation/LiberationSans-Bold.ttf);
+    font-family: "Caviar_Dreams_Bold";
+    src: local("Caviar"),
+        url(./fonts/Caviar/Caviar_Dreams_Bold.ttf) format("truetype");
 }
 @font-face {
-	font-family: "Cheyenne";
-	src: url(./fonts//Cheyenne/Cheyenne-Sans-Medium.ttf.woff);
+    font-family: "Caviar_Dreams";
+    src: local("Caviar_Dreams"),
+        url(./fonts/Caviar/CaviarDreams.ttf) format("truetype");
 }
 @font-face {
-	font-family: "Vampire";
-	src: url(./fonts//Vampire/vampire1.ttf.woff);
+    font-family: "Glacial";
+    src: url(./fonts//Glacial/GlacialIndifference-Regular.otf);
 }
 @font-face {
-	font-family: "Market";
-	src: url(./fonts//Market/Market_Deco.ttf);
+    font-family: "Glacial-bold";
+    src: url(./fonts//Glacial/GlacialIndifference-Bold.otf);
 }
 @font-face {
-	font-family: "Bold";
-	src: url(./fonts//Bold/theboldfont.ttf);
+    font-family: "Orkney";
+    src: url(./fonts//Orkney/orkney-regular.otf);
+}
+
+@font-face {
+    font-family: "Amble";
+    src: url(./fonts//Amble/Amble-Regular-webfont.woff);
+}
+@font-face {
+    font-family: "Amble-BOLD";
+    src: url(./fonts//Amble/Amble-Bold-webfont.woff);
+}
+@font-face {
+    font-family: "Liberation";
+    src: url(./fonts//Liberation/LiberationSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Cheyenne";
+    src: url(./fonts//Cheyenne/Cheyenne-Sans-Medium.ttf.woff);
+}
+@font-face {
+    font-family: "Vampire";
+    src: url(./fonts//Vampire/vampire1.ttf.woff);
+}
+@font-face {
+    font-family: "Market";
+    src: url(./fonts//Market/Market_Deco.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(./fonts//Bold/theboldfont.ttf);
+}
+@font-face {
+    font-family: "Styrene";
+    src: url(./fonts//Styrene/StyreneAWeb-Regular.eot);
+}
+@font-face {
+    font-family: "Styrene-bold";
+    src: url(./fonts//Styrene/StyreneAWeb-Bold.eot);
 }

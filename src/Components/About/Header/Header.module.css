@@ -1,50 +1,50 @@
 header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	height: 120px;
-	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
 }
 
 .header__name {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 3em;
-	height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+    height: 30px;
 }
 .header__picto {
-	height: 17px;
-	width: 17px;
-	background-color: #116dff;
-	margin-right: 10px;
+    height: 17px;
+    width: 17px;
+    background-color: #116dff;
+    margin-right: 10px;
 }
 
 .header__link {
-	display: flex;
-	flex-direction: row;
-	width: 40%;
-	justify-content: center;
-	font-family: "Glacial";
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    font-family: "Glacial";
 }
 .header__link p {
-	padding: 15px;
+    padding: 15px;
 }
 
 .header__content {
-	display: flex;
-	align-items: inherit;
-	flex-direction: row;
+    display: flex;
+    align-items: inherit;
+    flex-direction: row;
 }
 .header__content__name {
-	font-family: "Cheyenne";
-	font-weight: bold;
-	font-size: 1.5em;
-	margin-bottom: 0;
+    font-family: "Cheyenne";
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0;
 }
 .header__content__job {
-	font-family: "Glacial";
-	margin: 5px 0px 0px 5px;
+    font-family: "Glacial";
+    margin: 5px 0px 0px 5px;
 }

@@ -1,0 +1,19 @@
+.namingInfos {
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.namingInfos h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-bottom: 30px;
+}

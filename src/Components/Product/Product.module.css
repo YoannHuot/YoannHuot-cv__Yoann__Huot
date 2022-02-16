@@ -1,0 +1,233 @@
+.page__product {
+    max-height: 1200px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: auto;
+    top: 0;
+    justify-content: flex-end;
+}
+
+.section__left {
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+.section__left img {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.section__right {
+    width: 50%;
+    height: auto;
+
+    padding-left: 20px;
+    font-family: "Glacial";
+}
+.right__ariane {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(26, 25, 25);
+    align-items: center;
+    margin-bottom: 0px;
+}
+.right__ariane p:hover {
+    color: #ccc;
+}
+.ligne {
+    height: 20px;
+    border-left: 2px solid #ccc;
+}
+.right__ariane p {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    margin-bottom: 0px;
+
+    text-align: center;
+}
+
+.right__title__price {
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.right__title {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: "Glacial";
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.right__price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.right__expedition {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.expedition {
+    padding-right: 20px;
+    font-size: 1.2em;
+}
+.know__more {
+    color: rgb(133, 133, 133);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right__cta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.button__real {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    width: 47%;
+    background-color: #423bdb;
+    height: 40px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 2em;
+    margin-right: 3%;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: ease-in-out 0.12s;
+}
+.button__real:hover {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #423bdb;
+    font-weight: bold;
+}
+
+.button__add {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    width: 47%;
+    background: #3bdb82;
+    border-radius: 2em;
+    border: none;
+    height: 40px;
+    color: white;
+    text-transform: capitalize;
+    margin-right: 6%;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    transition: ease-in-out 0.12s;
+}
+.button__add:hover {
+    background-color: white;
+    color: #3bdb82;
+    font-weight: bold;
+}
+
+.button__rdv {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 70%;
+    background-color: white;
+    border-radius: 2em;
+    height: 40px;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    transition: 0.2s all ease-in-out;
+}
+.button__rdv:hover {
+    background-color: #eeedff;
+    color: black;
+}
+
+@media screen and (max-width: 1240px) {
+    .right__ariane {
+        width: 90%;
+    }
+    .right__cta {
+        padding-bottom: 0;
+        border: none;
+    }
+    .button__real {
+        width: 100%;
+        margin: 20px 0px 10px 0px;
+    }
+    .button__check {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .button__rdv {
+        width: 70%;
+        margin: 20px 0px 10px 0px;
+    }
+    .button__add {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .right__ariane {
+        display: none;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+    .section__left {
+        position: initial;
+        width: 100%;
+        height: 500px;
+    }
+    .section__left img {
+        height: 100%;
+    }
+    .section__right {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right__title__price {
+        margin: 0 auto;
+    }
+    .right__expedition {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .right__cta {
+        margin: 0 auto;
+    }
+    .button__rdv {
+        width: 70%;
+        margin-left: 15%;
+    }
+}

@@ -1,0 +1,92 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(201, 201, 201); */
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    font-family: "Glacial";
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.title {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Glacial-bold";
+    text-transform: capitalize;
+    font-size: 2em;
+}
+.card__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    width: 200px;
+}
+
+.picto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 5em;
+    margin-bottom: 20px;
+}
+
+.picto1 {
+    background-color: #423bdb;
+}
+
+.picto2 {
+    background-color: #3bdb82;
+}
+
+.picto3 {
+    background-color: #dbc23b;
+}
+
+.picto4 {
+    background-color: #db5d51;
+}
+@media screen and (max-width: 1024px) {
+    .subtitle {
+        margin-bottom: 0px;
+    }
+    .contact {
+        flex-wrap: wrap;
+        width: 50%;
+        height: auto;
+    }
+    .card__contact {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 806px) {
+    .contact {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 516px) {
+    .subtitle p {
+        width: 80%;
+        text-align: center;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    .contact {
+        width: 95%;
+    }
+}
