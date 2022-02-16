@@ -118,10 +118,6 @@ const Personalisation = (props) => {
 			default:
 				break;
 		}
-		console.log(moustacheChoice);
-		console.log(beardChoice);
-		console.log(glassesChoice);
-		console.log(hatChoice);
 	}, [beardChoice, hatChoice, glassesChoice, moustacheChoice]);
 
 	return (
