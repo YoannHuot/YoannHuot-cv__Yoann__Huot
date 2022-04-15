@@ -1,48 +1,55 @@
-img {
-    width: 100%;
-    height: auto;
+.namingReal {
+	width: 100%;
+	height: auto;
+}
+.namingReal img {
+	width: 80%;
+	height: auto;
 }
 
 .listingNaming p {
-    margin: 0;
-    margin-left: 20px;
-    font-family: "Glacial";
-    font-size: 1.1em;
+	margin: 0;
+	margin-left: 20px;
+	font-family: "Glacial";
+	font-size: 1.4em;
+	font-weight: bold;
+	color: rgb(70, 70, 70);
+	width: 95%;
 }
 
-.namingReal h2 {
-    font-family: "Glacial";
-    margin-left: 20px;
-    margin-top: 20px;
-    font-weight: bold;
+.listingNaming .namingReal h2 {
+	font-family: "Glacial";
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: bold;
 }
-.color0 {
-    display: flex;
-    align-items: center;
-    height: 60px;
-    font-weight: bold;
+.color {
+	display: flex;
+	align-items: flex-end;
+	height: 80px;
 }
-.color1 {
-    display: flex;
-    align-items: center;
-    height: 80px;
-    font-weight: bold;
+
+@media screen and (max-width: 1024px) {
+	.namingReal img {
+		width: 100%;
+		height: auto;
+	}
+	.listingNaming p {
+		font-size: 1.2em;
+	}
+	.color {
+		display: flex;
+		align-items: flex-end;
+		height: 80px;
+	}
 }
-.color2 {
-    display: flex;
-    align-items: center;
-    height: 60px;
-    font-weight: bold;
-}
-.color3 {
-    display: flex;
-    align-items: center;
-    height: 80px;
-    font-weight: bold;
-}
-.color4 {
-    display: flex;
-    align-items: center;
-    height: 60px;
-    font-weight: bold;
+@media screen and (max-width: 768px) {
+	.listingNaming p {
+		font-size: 1em;
+	}
+	.color {
+		display: flex;
+		align-items: flex-end;
+		height: 100px;
+	}
 }

@@ -5,12 +5,13 @@ import Content from "./Content/Content";
 import { useMediaQuery } from "react-responsive";
 
 const About = () => {
-	const handleHeader = useMediaQuery({
-		query: "(min-width: 820px)"
-	});
+	// const handleHeader = useMediaQuery({
+	// 	query: "(min-width: 768px)"
+	// });
 	return (
 		<div>
-			{handleHeader ? <Header /> : <></>}
+			{/* {handleHeader ? <Header /> : <></>} */}
+			<Header />
 			<Content />
 			<Footer />
 		</div>

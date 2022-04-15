@@ -1,12 +1,18 @@
 .cdpInfos {
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
 }
+
+.cdpInfos span {
+	font-weight: bold;
+	color: #423bdb;
+}
+
 .cdpInfos li {
-    list-style: none;
+	margin-bottom: 15px;
 }
