@@ -11,7 +11,7 @@ const Banner = () => {
 	return (
 		<>
 			<div className={classe.area}>
-				<img src={bigMe}></img>
+				<img src={bigMe} alt="Yoann"></img>
 				<ul className={classe.circles}>
 					<li></li>
 					<li></li>

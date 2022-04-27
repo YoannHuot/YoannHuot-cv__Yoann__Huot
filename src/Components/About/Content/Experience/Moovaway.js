@@ -22,7 +22,7 @@ const Moovaway = (props) => {
 			>
 				<div className={classe.card__front} onClick={props.handleFlip}>
 					<div className={classe.card__front__content}>
-						<img src={moovaway}></img>
+						<img src={moovaway} alt="logo moovaway"></img>
 						<div className={classe.card__front__title}>Movaway </div>
 						<div className={classe.card__front__line}></div>
 						<div className={classe.card__front__date}>2016 - 2016</div>

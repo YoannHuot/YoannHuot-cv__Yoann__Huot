@@ -3,7 +3,6 @@ import classe from "./BasketContactHeader.module.css";
 import logo from "../assets/logo.png";
 import { IoArrowBack } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import useIncrement from "../Store/Basket/hooks";
 
 const BasketContactHeader = () => {
@@ -31,7 +30,7 @@ const BasketContactHeader = () => {
         } else if (window.location.pathname === "/contact") {
             setIsBasket(false);
         }
-    });
+    },[setIsBasket]);
 
     useEffect(() => {
         if (incrementStore.length === 0) {
@@ -43,14 +42,14 @@ const BasketContactHeader = () => {
             const sum = mapStore.reduce((x, y) => x + y);
             setBasketCount(sum);
         }
-    }, [increment]);
+    }, [increment, incrementStore]);
     return (
         <>
             <div className={classe.basket__header}>
                 <div className={classe.arrow}>
                     <IoArrowBack fontSize={"2em"} onClick={returnToHome} />
                 </div>
-                <img
+                <img alt="logo"
                     src={logo}
                     className={classe.logo}
                     onClick={returnToHome}></img>

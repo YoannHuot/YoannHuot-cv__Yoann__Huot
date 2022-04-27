@@ -17,28 +17,28 @@ const NamingReal = () => {
 						Humaine
 					</p>
 				</div>
-				<img src={naming0}></img>
+				<img src={naming0} alt="exemple Naming 1"></img>
 				<div className={classe.color}>
 					<p>
 						Entreprise spécialisé dans l'emailing marketing et la
 						génération de leads
 					</p>
 				</div>
-				<img src={naming2}></img>
+				<img src={naming2}alt="exemple Naming 2"></img>
 				<div className={classe.color}>
 					<p>
 						Agence immobilière d'un nouveau genre, sociale,
 						solidaire et humaniste
 					</p>
 				</div>
-				<img src={naming4}></img>
+				<img src={naming4}alt="exemple Naming 3"></img>
 				<div className={classe.color}>
 					<p>
 						Lancement d'une marque en propre pour une entreprise
 						historique du mobilier, anciennement marque blanche
 					</p>
 				</div>
-				<img src={naming1}></img>
+				<img src={naming1}alt="exemple Naming 4"></img>
 
 				<div className={classe.color}>
 					<p>
@@ -46,7 +46,7 @@ const NamingReal = () => {
 						les commerçants, individus, lieux de vie d'une localité
 					</p>
 				</div>
-				<img src={naming3}></img>
+				<img src={naming3} alt="exemple Naming 5"></img>
 			</div>
 		</div>
 	);

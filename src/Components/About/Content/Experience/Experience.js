@@ -52,7 +52,7 @@ const Experience = () => {
 	return (
 		<div className={classe.experience} data-aos="fade-up">
 			<div className={classe.experience__header}>
-				<img src={skills} className={classe.skills} />
+				<img src={skills} className={classe.skills} alt="skills"/>
 				<h2>Mes expériences</h2>
 			</div>
 

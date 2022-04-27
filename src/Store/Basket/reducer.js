@@ -12,7 +12,7 @@ export const incrementProduct = (state = initialState, action) => {
 	switch (action.type) {
 		case INCREMENT__PRODUCT: {
 			const productFilter = state.product.filter(
-				(param) => param.id == action.product.id
+				(param) => param.id === action.product.id
 			);
 			if (productFilter.length === 0) {
 				return {
@@ -39,11 +39,11 @@ export const incrementProduct = (state = initialState, action) => {
 					product: newProduct
 				};
 			}
-		}
+		} break;
 
 		case DICREMENT__PRODUCT: {
 			const productFilter = state.product.filter(
-				(param) => param.id == action.product.id
+				(param) => param.id === action.product.id
 			);
 			const currentProduct = productFilter[0];
 			if (productFilter.length > 0) {
@@ -65,11 +65,11 @@ export const incrementProduct = (state = initialState, action) => {
 					};
 				}
 			}
-		}
+		}break;
 
 		case DELETE__PRODUCT: {
 			const productFilter = state.product.filter(
-				(param) => param.id == action.product.id
+				(param) => param.id === action.product.id
 			);
 			const currentProduct = productFilter[0];
 			const indexCurrentProductInState =

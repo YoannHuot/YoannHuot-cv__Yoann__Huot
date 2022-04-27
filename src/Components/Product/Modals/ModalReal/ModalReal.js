@@ -12,7 +12,7 @@ const ModalReal = (props) => {
 		if (currentProduct.title) {
 			setDefineProduct(currentProduct.title);
 		}
-	}, []);
+	}, [currentProduct.title]);
 
 	const backToProduct = () => {
 		props.productReal();

@@ -22,7 +22,7 @@ const Canal = (props) => {
         <div className={classe.card__front} onClick={props.handleFlip}>
           <div>test</div>
           <div className={classe.card__front__content}>
-            <img src={canal}></img>
+            <img src={canal} alt="logo canal plus"></img>
             <div className={classe.card__front__title}>Canal+ </div>
             <div className={classe.card__front__line}></div>
             <div className={classe.card__front__date}>2015 - 2017</div>

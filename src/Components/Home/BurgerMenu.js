@@ -43,7 +43,7 @@ const BurgerMenu = (props) => {
 			const sum = mapStore.reduce((x, y) => x + y);
 			setBasketCount(sum);
 		}
-	}, [increment]);
+	}, [increment, incrementStore]);
 	return (
 		<div className={classe.container__burger__menu}>
 			<img

@@ -49,7 +49,7 @@ const Basket = () => {
             setBasketCount(sum);
         }
         setProducts(productInStore);
-    }, [increment]);
+    }, [increment, productInStore]);
 
     useEffect(() => {
         const mapStorageFoundNaming = productInStore.map((item) => item.id);
@@ -85,7 +85,7 @@ const Basket = () => {
                     {basketCount !== 0 ? (
                         products.map((items) => (
                             <div className={classe.product__card}>
-                                <img
+                                <img alt = "product"
                                     src={items.img}
                                     className={classe.product__img}></img>
                                 <div className={classe.product__content}>

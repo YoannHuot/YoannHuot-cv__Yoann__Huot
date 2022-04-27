@@ -22,7 +22,7 @@ const Freelance = (props) => {
 			>
 				<div className={classe.card__front} onClick={props.handleFlip}>
 					<div className={classe.card__front__content}>
-						<img src={illuFreelance}></img>
+						<img src={illuFreelance} alt="illustration freelance"></img>
 						<div className={classe.card__front__title}>Freelance</div>
 						<div className={classe.card__front__line}></div>
 						<div className={classe.card__front__date}>2020 - 2021</div>

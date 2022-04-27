@@ -97,7 +97,7 @@ const Product = () => {
 		if (selectProduct.length > 0) {
 			setNumberOfProduct(selectProduct[0].number);
 		}
-	}, [increment]);
+	}, [increment, id]);
 
 	useEffect(() => {
 		if (personalised.rien01) {
@@ -143,7 +143,7 @@ const Product = () => {
 			<Header />
 			<div className={classe.top}>
 				<section className={classe.section__left}>
-					<img src={image}></img>
+					<img src={image} alt="img personalisée"></img>
 				</section>
 
 				<section className={classe.section__right}>

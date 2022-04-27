@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../Home/Header";
-import { useNavigate } from "react-router-dom";
 import classe from "./Contact.module.css";
 import BasketContactHeader from "../../UI/BasketContactHeader";
 import { FiSmartphone, FiMail, FiLinkedin, FiMapPin } from "react-icons/fi";
@@ -8,18 +6,7 @@ import { RiEmotionLaughFill } from "react-icons/ri";
 import Footer from "../Home/Footer";
 
 const Contact = () => {
-	const getItemStorage =
-		JSON.parse(localStorage.getItem("persist:increment")) || [];
-	const parseStorage = JSON.parse(getItemStorage.product);
 
-	const navigate = useNavigate();
-	const returnToHome = () => {
-		navigate("/");
-	};
-
-	const goToContact = () => {
-		navigate("/contact");
-	};
 
 	return (
 		<>

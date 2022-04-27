@@ -26,7 +26,7 @@ const Creads = (props) => {
 			>
 				<div className={classe.card__front} onClick={props.handleFlip}>
 					<div className={classe.card__front__content}>
-						<img src={creads}></img>
+						<img src={creads} alt="logo creads"></img>
 						<div className={classe.card__front__title}>Creads </div>
 						<div className={classe.card__front__line}></div>
 						<div className={classe.card__front__date}>2017 - 2020</div>

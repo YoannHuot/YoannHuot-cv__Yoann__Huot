@@ -16,7 +16,7 @@ const ProgressBar = (props) => {
 				setPercent(0);
 			}, 800);
 		}
-	}, [props.showData]);
+	}, [props.showData, props.percent]);
 
 	return (
 		<>

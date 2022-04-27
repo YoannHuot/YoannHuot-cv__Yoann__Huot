@@ -10,6 +10,7 @@ const CdpReal = () => {
 			<div>
 				<div className={classe.zenride}>
 					<img
+					alt="Zenride"
 						src={logoZenride}
 						className={classe.zenride__logo}></img>
 					<ul>
@@ -30,7 +31,7 @@ const CdpReal = () => {
 					</ul>
 				</div>
 				<div className={classe.creads}>
-					<img src={creads} className={classe.creads__logo}></img>
+					<img src={creads} className={classe.creads__logo} alt="creads"></img>
 					<ul>
 						<li>
 							<span>Project Manager pendant 3 ans</span> chez

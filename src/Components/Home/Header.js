@@ -43,14 +43,14 @@ const Header = () => {
 			const sum = mapStore.reduce((x, y) => x + y);
 			setBasketCount(sum);
 		}
-	}, [increment]);
+	}, [increment, incrementStore]);
 
 	return (
 		<div className={classe.header__home}>
 			{handleShopfolio ? (
 				<>
 					<div className={classe.header__home__logo}>
-						<img src={logo} onClick={backToHome}></img>
+						<img src={logo} onClick={backToHome} alt="logo"></img>
 						{handleShopfolio && <h1>Yoann Huot Shopfolio</h1>}
 					</div>
 					<div className={classe.header__home__content}>

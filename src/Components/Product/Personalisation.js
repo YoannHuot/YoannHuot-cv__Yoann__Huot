@@ -42,17 +42,17 @@ const Personalisation = (props) => {
 
 			case beardChoice === true &&
 				glassesChoice === false &&
-				hatChoice == false:
+				hatChoice === false:
 				props.setPersonalised({ rien01: true });
 				break;
 			case beardChoice === true &&
 				glassesChoice === true &&
-				hatChoice == false:
+				hatChoice === false:
 				props.setPersonalised({ lunettes01: true });
 				break;
 			case beardChoice === true &&
 				glassesChoice === false &&
-				hatChoice == true:
+				hatChoice === true:
 				props.setPersonalised({ chapeau01: true });
 				break;
 			case beardChoice === true &&
@@ -91,21 +91,21 @@ const Personalisation = (props) => {
 			case beardChoice === false &&
 				moustacheChoice === false &&
 				glassesChoice === true &&
-				hatChoice == true:
+				hatChoice === true:
 				props.setPersonalised({ chapeauLunettes03: true });
 
 				break;
 			case beardChoice === false &&
 				moustacheChoice === false &&
 				glassesChoice === true &&
-				hatChoice == false:
+				hatChoice === false:
 				props.setPersonalised({ lunettes03: true });
 
 				break;
 			case beardChoice === false &&
 				moustacheChoice === false &&
 				glassesChoice === false &&
-				hatChoice == true:
+				hatChoice === true:
 				props.setPersonalised({ chapeau03: true });
 				break;
 
@@ -118,7 +118,7 @@ const Personalisation = (props) => {
 			default:
 				break;
 		}
-	}, [beardChoice, hatChoice, glassesChoice, moustacheChoice]);
+	}, [beardChoice, hatChoice, glassesChoice, moustacheChoice, props]);
 
 	return (
 		<div className={classe.right__personalisation}>

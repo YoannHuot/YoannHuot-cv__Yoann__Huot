@@ -204,7 +204,7 @@ const Parcours = () => {
 						</>
 					)}
 
-					<img src={illustrationWay} data-aos="fade-left"></img>
+					<img src={illustrationWay} data-aos="fade-left" alt="illustration chemin"></img>
 				</div>
 			</div>
 		</div>

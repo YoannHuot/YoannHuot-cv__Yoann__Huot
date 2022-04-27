@@ -11,11 +11,10 @@ const ModalProduct = (props) => {
 	console.log(currentProduct.title);
 
 	useEffect(() => {
-		console.log(props);
 		if (currentProduct.title) {
 			setDefineProduct(currentProduct.title);
 		}
-	}, []);
+	}, [currentProduct.title]);
 
 	const backToProduct = () => {
 		props.productInfos();
