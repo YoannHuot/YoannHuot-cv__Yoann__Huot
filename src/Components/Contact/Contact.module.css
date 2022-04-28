@@ -1,3 +1,5 @@
+
+
 .contact {
     display: flex;
     flex-direction: row;
@@ -8,6 +10,7 @@
     align-items: center;
     height: 300px;
     font-family: "Glacial";
+    color: black;
 }
 
 .subtitle {
@@ -31,9 +34,23 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-
     width: 200px;
 }
+
+.card__contact p {
+    height: 20px;
+ }
+ 
+ .card__contact a {
+    height: 20px;
+    color: black;
+    margin-bottom: 10px;
+    transition: 0.1s ease-in-out;
+ }
+ .card__contact a:hover {
+    color: #555555;
+ }
+ 
 
 .picto {
     display: flex;

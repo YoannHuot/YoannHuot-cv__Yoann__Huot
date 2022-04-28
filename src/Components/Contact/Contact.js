@@ -47,12 +47,15 @@ const Contact = () => {
 				</div>
 				<div className={classe.card__contact}>
 					<div className={`${classe.picto} ${classe.picto4}`}>
-						<FiLinkedin
+					<a href="https://www.linkedin.com/in/yoann-huot-630616b1/">
+					<FiLinkedin
 							style={{ fontSize: "2.2em", color: "white" }}
 						/>
+						</a>
+						
 					</div>
 					<p>Linkedin</p>
-					<p>lien de redirection </p>
+					<a href="https://www.linkedin.com/in/yoann-huot-630616b1/">Cliquez ici</a>
 				</div>
 			</div>
 			<Footer />
